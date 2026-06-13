@@ -1,0 +1,44 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#07152e;color:white}
+.hero{min-height:95vh;background:linear-gradient(135deg,#06152f,#0047a8);padding:25px 8%}
+nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:70px}
+.logo{font-size:25px;font-weight:900}
+.links a{color:white;text-decoration:none;margin-left:18px;font-weight:bold}
+.hero-content{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.tag{color:#ffd000;font-weight:bold;margin-bottom:15px}
+h1{font-size:56px;line-height:1.1;margin-bottom:20px}
+.subtitle{font-size:20px;max-width:700px;margin-bottom:25px;line-height:1.5}
+.offer{display:inline-block;background:#ffd000;color:#07152e;padding:16px 24px;border-radius:14px;font-size:24px;font-weight:900;margin-bottom:15px}
+.btn{display:inline-block;background:#00c878;color:white;padding:14px 25px;border-radius:30px;text-decoration:none;font-weight:bold;margin:10px}
+.robot{font-size:180px;animation:float 3s infinite ease-in-out}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+section{padding:55px 8%;text-align:center}
+h2{font-size:38px;margin-bottom:25px;color:#ffd000}
+.announcement,.contact,.kits-section{background:#0b2a5b}
+.announcement p,.about p,.contact p{font-size:21px;line-height:1.7}
+.course-table{max-width:1000px;margin:auto;background:white;color:#07152e;border-radius:18px;overflow:hidden;box-shadow:0 12px 25px rgba(0,0,0,.3)}
+.row{display:grid;grid-template-columns:1fr 4fr 2fr;align-items:center;border-bottom:2px solid #d6d6d6;min-height:78px;font-size:25px;font-weight:800}
+.row span,.row b{padding:18px}
+.row.head{background:#06224d;color:white;font-size:24px;text-transform:uppercase}
+.row b{font-size:34px;color:#0a8a37}
+.row:nth-child(3) b,.row:nth-child(4) b{color:#1266c3}
+.row:nth-child(5) b{color:#c21d1d}
+.row:nth-child(6) b{color:#6c28b8}
+.row:nth-child(7) b{color:#ff6b00}
+.row.special{background:#fff7d1}
+.cards,.kit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.kit-grid{grid-template-columns:repeat(3,1fr)}
+.card,.kit-card{background:white;color:#07152e;padding:25px;border-radius:18px;text-align:center;box-shadow:0 10px 20px rgba(0,0,0,.25)}
+.card h3,.kit-card h3{font-size:24px;margin-bottom:12px}
+.kit-icon{font-size:45px;margin-bottom:10px}
+.kit-card p{font-size:17px;line-height:1.5}
+footer{text-align:center;padding:22px;background:#020817}
+@media(max-width:850px){
+  nav,.hero-content{flex-direction:column;text-align:center}
+  h1{font-size:38px}
+  .robot{font-size:115px}
+  .cards,.kit-grid{grid-template-columns:1fr}
+  .row{grid-template-columns:.8fr 3fr 1.5fr;font-size:17px;min-height:65px}
+  .row b{font-size:24px}
+  .links a{display:inline-block;margin:8px}
+}
