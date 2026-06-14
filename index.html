@@ -3,114 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IOT Beta Education - Robotics Class</title>
+  <title>Hotel Chandana | Kalamboli</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="hero">
-    <nav>
-      <div class="logo">🤖 IOT BETA EDUCATION</div>
-      <div class="links">
-        <a href="#courses">Courses</a>
-        <a href="#kits">Kits</a>
-        <a href="#modules">Modules</a>
+    <nav class="navbar">
+      <div class="logo">🍽️ Hotel <span>Chandana</span></div>
+      <div class="nav-links">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
     <div class="hero-content">
-      <div>
-        <p class="tag">Learn • Innovate • Create</p>
-        <h1>Online Robotics, Arduino & ESP Classes</h1>
-        <p class="subtitle">Learn robotics, IoT, Arduino, ESP, sensors, WiFi projects and AI prompt skills with practical guidance.</p>
-        <div class="offer">🎉 20% DISCOUNT ON ANY COURSE</div>
-        <br>
-        <a class="btn" href="https://wa.me/918828151306?text=I%20want%20to%20join%20IOT%20Beta%20Education%20course">Join Now</a>
-      </div>
-      <div class="robot">🤖</div>
+      <h1>Authentic Maharashtrian Taste</h1>
+      <p>Fresh, spicy, delicious Indian food served with love in Kalamboli.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
     </div>
+    <div class="floating-food">🍛</div>
+    <div class="floating-food two">🍦</div>
+    <div class="floating-food three">☕</div>
   </header>
 
-  <section class="announcement">
-    <h2>📢 Announcement</h2>
-    <p><b>Special online lecture:</b> Importance of Robotics</p>
-    <p><b>Date:</b> 14 June | <b>Mode:</b> Online | <b>Time:</b> Anytime in day</p>
+  <section id="about" class="about reveal">
+    <div>
+      <h2>Welcome to Hotel Chandana</h2>
+      <p>Hotel Chandana brings you tasty Maharashtrian breakfast, lunch, dinner, starters, ice creams, tea, coffee, and refreshing drinks. Perfect place for family food, quick snacks, and daily meals.</p>
+      <p><b>Address:</b> Kalamboli</p>
+      <p><b>Contact:</b> <a href="tel:8828151306">8828151306</a></p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80" alt="Indian food" />
   </section>
 
-  <section id="courses">
-    <h2>Course Wise Fees Chart</h2>
-    <div class="course-table">
-      <div class="row head"><span>No.</span><span>Course</span><span>Fees</span></div>
-      <div class="row"><span>1.</span><span>ESP Course</span><b>₹100</b></div>
-      <div class="row"><span>2.</span><span>Arduino Course</span><b>₹150</b></div>
-      <div class="row"><span>3.</span><span>Sensor Course</span><b>₹150</b></div>
-      <div class="row"><span>4.</span><span>Coding Hack Course</span><b>₹400</b></div>
-      <div class="row"><span>5.</span><span>WiFi Analysis Course</span><b>₹300</b></div>
-      <div class="row"><span>6.</span><span>AI Prompt Course</span><b>₹200</b></div>
-      <div class="row special"><span>7.</span><span>Arduino & ESP Kit Course</span><b>Contact</b></div>
+  <section id="menu" class="menu-section">
+    <h2 class="section-title reveal">Our Food Menu</h2>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <section class="gallery reveal">
+    <h2>Food Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80" alt="Indian Thali">
+      <img src="https://images.unsplash.com/photo-1630409351217-bc4fa6422075?auto=format&fit=crop&w=800&q=80" alt="Indian Snack">
+      <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="Ice cream">
+      <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=800&q=80" alt="Tea">
     </div>
   </section>
 
-  <section id="kits" class="kits-section">
-    <h2>Robotics Kits Available</h2>
-    <div class="kit-grid">
-      <div class="kit-card">
-        <div class="kit-icon">🧠</div>
-        <h3>ESP Beginner Kit</h3>
-        <p>ESP8266 board, jumper wires, breadboard, LED, buzzer and basic sensors.</p>
-      </div>
-      <div class="kit-card">
-        <div class="kit-icon">🔵</div>
-        <h3>Arduino Starter Kit</h3>
-        <p>Arduino UNO, LCD I2C, keypad, relay, servo motor and project components.</p>
-      </div>
-      <div class="kit-card">
-        <div class="kit-icon">📡</div>
-        <h3>Sensor Kit</h3>
-        <p>Soil moisture, ultrasonic, DHT11, LDR, gas sensor and buzzer modules.</p>
-      </div>
-      <div class="kit-card">
-        <div class="kit-icon">🤖</div>
-        <h3>Robotics Car Kit</h3>
-        <p>Robot chassis, wheels, motors, motor driver, battery holder and wires.</p>
-      </div>
-      <div class="kit-card">
-        <div class="kit-icon">🌐</div>
-        <h3>IoT Project Kit</h3>
-        <p>ESP board, relay module, sensors and WiFi based home automation learning.</p>
-      </div>
-      <div class="kit-card">
-        <div class="kit-icon">🧰</div>
-        <h3>Arduino + ESP Combo Kit</h3>
-        <p>Best kit for students who want both Arduino projects and WiFi IoT projects.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="modules">
-    <h2>Website Modules</h2>
-    <div class="cards">
-      <div class="card"><h3>📢 Announcement</h3><p>Latest class updates, offers and important notices.</p></div>
-      <div class="card"><h3>💻 Online Lecture</h3><p>Live online lectures for robotics and IoT learning.</p></div>
-      <div class="card"><h3>📅 Schedule</h3><p>Class timing, upcoming topics and lecture planning.</p></div>
-      <div class="card"><h3>🧰 Kit Course</h3><p>Arduino and ESP project kit based practical learning.</p></div>
-    </div>
-  </section>
-
-  <section class="about">
-    <h2>Why Choose Us?</h2>
-    <p>Practical learning, beginner-friendly teaching, project support, robotics ideas, Arduino coding, ESP WiFi projects and certificate guidance.</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Enroll Now</h2>
-    <p>📞 Contact: <b>8828151306</b></p>
+  <section id="contact" class="contact reveal">
+    <h2>Visit Us Today</h2>
+    <p>📍 Kalamboli</p>
+    <p>📞 8828151306</p>
     <a class="btn" href="tel:8828151306">Call Now</a>
-    <a class="btn" href="https://wa.me/918828151306">WhatsApp</a>
   </section>
 
   <footer>
-    <p>© 2026 IOT Beta Education | Build • Code • Innovate • Inspire</p>
+    <p>© 2026 Hotel Chandana | Made with ❤️ for Kalamboli food lovers</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
